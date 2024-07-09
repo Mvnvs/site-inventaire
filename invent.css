@@ -1,0 +1,67 @@
+#inventaire{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+}
+#user{
+	display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 30px auto;
+
+}
+#detail{
+	display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+#heart:hover{
+	color: red;
+}
+
+#caracteristique{
+	margin-right: 20%;
+}
+#item{
+	width: auto;
+	height: 200px;
+
+}
+.article{
+	margin-left: 10%;
+	margin-right: 10%;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10%;
+}
+
+h1{
+	text-align: center;
+}
+
+.trait{
+    height: 1px;
+    width: 75%;
+    background-color: black;
+    margin: 60px auto;
+}
+
+.button{
+	margin-top: 2%;
+	height: 20px;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.button:hover{
+	background-color: lightgrey;
+}
+#profile{
+	height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}

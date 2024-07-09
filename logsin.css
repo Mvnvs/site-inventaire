@@ -1,0 +1,59 @@
+#body{
+		text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    margin-left: 35%;
+    margin-right: 35%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		border: 2px solid lightgrey;
+		background-color: lightgrey;
+		border-radius: 10px;
+}
+
+#condition{
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+#forgot{
+	margin-left: 20%;
+	margin-top: 5px;
+	font-size: 10px;
+	text-align: left;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  border: none;
+  border-bottom: 2px solid black;
+  width : 60%;
+  height: 30px;
+  background-color: lightgrey;
+}
+input[type=submit]{
+	height: 50px;
+	width: 60%;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+label{
+	font-size: 12px;
+	color: grey;
+	text-align : left;
+}
+#account{
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+#account a{ 
+  color:steelblue; 
+  text-decoration : none;
+}
+body h1{
+	margin-bottom: 10px;
+	font-size: 25px;
+	margin-top: 20px;
+}
